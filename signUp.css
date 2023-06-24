@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(67, 32, 32);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    color: rgb(67, 32, 32);
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    font-size: 14px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+}
+
+button {
+    background-color: rgb(67, 32, 32);
+    ;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px;
+    width: 97%;
+}
+
+button:hover {
+    background-color: rgb(67, 32, 32);
+    ;
+}
+
+button:active {
+    background-color: rgb(67, 32, 32);
+    ;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+
+.login-text a {
+    color: red;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] a {
+    color: white;
+    text-decoration: none;
+}

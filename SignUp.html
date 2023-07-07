@@ -2,25 +2,48 @@
 <html lang="en">
 
 <head>
-    <title>signUp - Menu Max</title>
-    <link rel="stylesheet" type="text/css" href="signUp.css"> <!-- Ganti "style.css" dengan nama file CSS Anda -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="SignUp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
-    <div class="signup-container">
-        <img src="Logo.png" alt="Menu Max Logo">
-        <h1>Register</h1>
-        <form>
-            <input type="text" placeholder="Username" name="username" required>
-            <input type="email" placeholder="Email" name="email" required>
-            <input type="password" placeholder="Password" name="password" required>
-            <input type="password" placeholder="Confirm Password" name="confirm-password" required>
-            <button type="submit"><a href="login.html">Sign Up</a></button>
+    <div class="wrapper">
+        <header>Sign Up Form</header>
+        <form id="signup-form">
+            <div class="field">
+                <div class="input-area">
+                    <input type="text" placeholder="Username" name="username" required>
+                    <i class="icon fas fa-user"></i>
+                </div>
+            </div>
+            <div class="field email">
+                <div class="input-area">
+                    <input type="email" placeholder="Email Address" name="email" required>
+                    <i class="icon fas fa-envelope"></i>
+                </div>
+            </div>
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Password" name="password" required>
+                    <i class="icon fas fa-lock"></i>
+                </div>
+            </div>
+            <div class="field confirm-password">
+                <div class="input-area">
+                    <input type="password" placeholder="Confirm Password" name="confirm-password" required>
+                    <i class="icon fas fa-lock"></i>
+                </div>
+            </div>
+            <div class="login-button" style="background-color: rgb(27, 159, 192); color: white; padding: 10px;">
+                <button type="submit" style="color: white; text-decoration: none;">Sign Up</button>
+            </div>
         </form>
-        <p class="login-text">Already have an account? <a href="login.html">Login</a></p>
+        <div class="login-txt">Already have an account? <a href="login.html">Login</a></div>
     </div>
-
-    <script src="signUp.js"></script>
+    <script src="js/signUp.js"></script>
 </body>
 
 </html>

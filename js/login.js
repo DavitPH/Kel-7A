@@ -8,13 +8,21 @@ loginButton.addEventListener('click', function(event) {
     event.preventDefault(); // Mencegah form dari submit secara default
 
     // Validasi email dan password
+<<<<<<< HEAD
     if (emailInput.value === 'admin') {
+=======
+    if (emailInput.value === '') {
+>>>>>>> 98e37b2dcc3e472ea94b1d35b7f4d568cfbf6786
         showError(emailInput, 'Email can\'t be blank');
     } else {
         hideError(emailInput);
     }
 
+<<<<<<< HEAD
     if (passwordInput.value === 'admin') {
+=======
+    if (passwordInput.value === '') {
+>>>>>>> 98e37b2dcc3e472ea94b1d35b7f4d568cfbf6786
         showError(passwordInput, 'Password can\'t be blank');
     } else {
         hideError(passwordInput);
@@ -47,5 +55,10 @@ function hideError(input) {
 
     input.classList.remove('error');
     errorIcon.style.visibility = 'hidden';
+<<<<<<< HEAD
+    errorText.textContent = '';
+}
+=======
     errorText.textContent = '';
 }
+>>>>>>> 98e37b2dcc3e472ea94b1d35b7f4d568cfbf6786

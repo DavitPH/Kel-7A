@@ -8,13 +8,13 @@ loginButton.addEventListener('click', function(event) {
     event.preventDefault(); // Mencegah form dari submit secara default
 
     // Validasi email dan password
-    if (emailInput.value === 'admin') {
+    if (emailInput.value === '') {
         showError(emailInput, 'Email can\'t be blank');
     } else {
         hideError(emailInput);
     }
 
-    if (passwordInput.value === 'admin') {
+    if (passwordInput.value === '') {
         showError(passwordInput, 'Password can\'t be blank');
     } else {
         hideError(passwordInput);

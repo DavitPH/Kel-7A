@@ -18,6 +18,6 @@ document.querySelector('form').addEventListener('submit', function (event) {
 });
 
 function redirectToLoginPage() {
-    window.location.href = 'Login.html'
+    window.location.href = 'index.html'
     alert("Sign Up Successfull"); // Ganti "login.html" dengan halaman login yang sebenarnya
 }
